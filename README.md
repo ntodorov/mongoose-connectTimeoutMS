@@ -9,4 +9,8 @@ npm insatll
 node index.js
 
 
-it will show you that mongoose always waits for 30s ingnoring the passed param connectTimeoutMS set to 1 sec.
+~~it will show you that mongoose always waits for 30s ingnoring the passed param connectTimeoutMS set to 1 sec.
+
+UPDATE: the correct property to use is serverSelectionTimeoutMS, so this is not a bug.
+
+I'm keeping the example for reference.
